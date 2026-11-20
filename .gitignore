@@ -1,0 +1,20 @@
+# Backend build and local runtime data
+backend/target/
+backend/.m2/
+backend/data/*
+!backend/data/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+
+# Frontend build and dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Local secrets and IDE files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.iml
